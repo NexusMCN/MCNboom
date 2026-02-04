@@ -1,8 +1,8 @@
-🚀 MCNboom - SMS/Call Boomer
-A powerful and stylish SMS/Call Boomer tool for Termux users. Fast, secure, and built-in auto-update system. 🛠️
+🚀 MCNboom - SMS
+A powerful and stylish SMS tool for Termux users. Fast, secure, and built-in auto-update system. 🛠️
 
 ✨ Features
-⚡ Fast Booming
+⚡ Fast ATTACK
 📥 Installation
 Copy and paste the following command in your Termux:
 
