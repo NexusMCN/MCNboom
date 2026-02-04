@@ -6,12 +6,20 @@ A powerful and stylish SMS tool for Termux users. Fast, secure, and built-in aut
 📥 Installation
 Copy and paste the following command in your Termux:
 
-apt update && pkg install python git ruby -y && gem install lolcat && pip install requests && git clone https://github.com/NexusMCN/MCNboom && cd MCNboom && chmod +x * && cp .mcnboom.py /data/data/com.termux/files/usr/bin/MCNboom && MCNboom
+pkg update -y && pkg upgrade -y
+pkg install -y git python ruby
+pip install requests
+gem install lolcat
+git clone https://github.com/NexusMCN/MCNboom.git
+cd MCNboom
+chmod +x mcnboom
+mv mcnboom $PREFIX/bin/
+mcnboom
 
 🚀 How to Run
 After installation, you can run the tool anytime by just typing:
 
-MCNboom
+mcnboom
 
 👨‍💻 Developer
 Name: MAHBUBUL ALAM
